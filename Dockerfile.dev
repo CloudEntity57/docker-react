@@ -1,7 +1,6 @@
 FROM node:lts-alpine
 
 WORKDIR '/app'
-EXPOSE 80
 
 COPY package.json .
 RUN npm install
